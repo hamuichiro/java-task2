@@ -3,12 +3,8 @@ public class ArgsLastPrinter{
         if (args.length == 0){
             System.out.println("‚È‚µ");
         } else{
-            String str = "";
-            for (int i = 0; i < args.length; i ++ ){
-                str = args[i];
-            }
+            String str = args[args.length - 1];
             System.out.println(str);
-
         }
     }
 }
